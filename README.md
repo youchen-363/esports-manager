@@ -1,5 +1,3 @@
-# SAE E Sport
-
 # Gestionnaire de Compétitions Esport en Java
 Bienvenue dans le Gestionnaire de Compétitions Esport, une application Java dédiée à la gestion efficace de tournois esportifs. Ce projet utilise derby.jar pour l'exploitation de la base de données JDBC, lequel est inclus dans le répertoire de ce projet sur GitLab. L'IDE recommandé pour ce projet est Eclipse. Pour lancer l'application, suivez les étapes ci-dessous.
 

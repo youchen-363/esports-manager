@@ -18,12 +18,12 @@ Bienvenue dans le Gestionnaire de Compétitions Esport, une application Java dé
 2. Lancez le fichier "Donnees.java" pour charger les jeux de données
 -  Cliquer sur `Run Application`
 
-3. Ensuite, lancez le fichier "Application.java" pour exécuter l'application principale
+3. Ensuite, lancez le fichier **Application.java** pour exécuter l'application principale
 
 ## Fonctionnalités
 
 ### 1. Identification 
-- Deux types d'utilisateurs : administrateur et arbitre
+- Deux types d'utilisateurs : **Administrateur** et **Arbitre**
 - L'admin peut gérer les tournois, les matchs, l'historique et les arbitres (sauf choisir le vainqueur d'un match et de la finale)
 - Les arbitres peuvent choisir le vainqueur d'un match et de la finale
 

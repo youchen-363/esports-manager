@@ -1,65 +1,71 @@
-# Gestionnaire de Compétitions Esport en Java
-Bienvenue dans le Gestionnaire de Compétitions Esport, une application Java dédiée à la gestion efficace de tournois esportifs. Ce projet utilise derby.jar pour l'exploitation de la base de données JDBC, lequel est inclus dans le répertoire de ce projet sur GitLab. L'IDE recommandé pour ce projet est Eclipse. Pour lancer l'application, suivez les étapes ci-dessous.
+# Esports Competition Management System
 
-## Installation
-1. Enregistrez le code source sur GitLab et le dézippez ou clonez le dépôt :
+Welcome to the Esports Competition Management System, a Java application designed for the efficient management of esports tournaments. This project uses `derby.jar` for JDBC database operations. This JAR file is included in the project's repository on GitLab. The recommended IDE for this project is Eclipse. To run the application, follow the steps below.
 
-   `git clone https://gitlab.info.iut-tlse3.fr/khc4298a/SAE-e-sport.git `
+---
 
-2. Ouvrez le projet avec Eclipse.
+### Installation
 
-3. Ajoutez Derby.jar au projet via :
-   `Properties -> Java Build Path -> Add External JARs`
+1.  Clone the repository:
 
+    ```sh
+    git clone [https://gitlab.info.iut-tlse3.fr/khc4298a/SAE-e-sport.git](https://gitlab.info.iut-tlse3.fr/khc4298a/SAE-e-sport.git)
+    ```
 
-## Exécution de l'Application
-1. Ouvrez le package **Application**
+2.  Open the project with Eclipse.
 
-2. Lancez le fichier "Donnees.java" pour charger les jeux de données
--  Cliquer sur `Run Application`
+3.  Add `Derby.jar` to the project by navigating to:
+    `Properties -> Java Build Path -> Add External JARs`
 
-3. Ensuite, lancez le fichier **Application.java** pour exécuter l'application principale
+---
 
-## Fonctionnalités
+### Running the Application
 
-### 1. Identification 
-- Deux types d'utilisateurs : **Administrateur** et **Arbitre**
-- L'admin peut gérer les tournois, les matchs, l'historique et les arbitres (sauf choisir le vainqueur d'un match et de la finale)
-- Les arbitres peuvent choisir le vainqueur d'un match et de la finale
+1.  Open the **Application** package.
 
-### 2. Gestion des Tournois
-- Création d'un tournoi
-- Affichage de tous les tournois
-- Importation des équipes pour un tournoi
-- Attribution des arbitres pour un tournoi
-- Ouverture et fermeture d'un tournoi
-- Détermination du vainqueur d'un tournoi
+2.  Run the "**Donnees.java**" file to load the datasets.
+    
+    * Click `Run Application`.
 
-### 3. Gestion des Matchs
-- Choix des vainqueurs
-- Calcul automatique des points pour le classement
-- Création d'une finale
+3.  Next, run the **Application.java** file to launch the main application.
 
-### 4. Gestion des équipes
-- Affichage de toutes les équipes dans la base de données 
-- Modification de nom et de pays d'une équipe
-- La composition d'une équipe ne peut pas être changer pendant la saison en cours
+---
 
-### 5. Gestion des Arbitres
-- Ajout et suppression d'arbitres
+### Features
 
-### 6. Gestion de l'Historique des Points
-- Suivi des points gagnés par chaque équipe dans tous les tournois joués
+#### 1. User Authentication
+* **Two user types:** Administrator and Referee.
+* **Admins** can manage tournaments, matches, history, and referees.
+* **Referees** can choose the winner of a match and the final.
 
+#### 2. Tournament Management
+* Create a tournament.
+* View all tournaments.
+* Import teams for a tournament.
+* Assign referees to a tournament.
+* Open and close a tournament.
+* Determine the tournament winner.
 
-## Licence
+#### 3. Match Management
+* Choose match winners.
+* Automatically calculate points for standings.
+* Create a final.
 
-Ce projet est sous licence MIT. Vous êtes libre de copier, modifier et distribuer ce code. Consultez le fichier LICENSE pour plus de détails.
+#### 4. Team Management
+* View all teams in the database.
+* Modify a team's name and country.
+* A team's composition cannot be changed during the current season.
 
-Merci d'utiliser notre Gestionnaire de Compétitions E-Sport en Java ! Si vous avez des questions ou des suggestions, n'hésitez pas à nous contacter.
+#### 5. Referee Management
+* Add and delete referees.
 
+#### 6. Point History Management
+* Track points earned by each team across all tournaments played.
 
+---
 
+### License
 
+This project is under the MIT license. You are free to copy, modify, and distribute this code. See the `LICENSE` file for more details.
 
-
+Thank you for using our Esports Competition Management System! If you have any questions or suggestions, feel free to contact us.

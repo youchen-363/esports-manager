@@ -1,6 +1,6 @@
-# Esports Competition Management System
+# Esports Tournament Management System
 
-Welcome to the Esports Competition Management System, a Java application designed for the efficient management of esports tournaments. This project uses `derby.jar` for JDBC database operations. This JAR file is included in the project's repository on GitLab. The recommended IDE for this project is Eclipse. To run the application, follow the steps below.
+Welcome to the Esports Tournament Management System, a Java application designed for the efficient management of esports tournaments. This project uses `derby.jar` for JDBC database operations. This JAR file is included in the project's repository on GitLab. The recommended IDE for this project is Eclipse. To run the application, follow the steps below.
 
 ---
 
@@ -68,4 +68,4 @@ Welcome to the Esports Competition Management System, a Java application designe
 
 This project is under the MIT license. You are free to copy, modify, and distribute this code. See the `LICENSE` file for more details.
 
-Thank you for using our Esports Competition Management System! If you have any questions or suggestions, feel free to contact us.
+Thank you for using our Esports Tournament Management System! If you have any questions or suggestions, feel free to contact us.
